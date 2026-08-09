@@ -1,3 +1,10 @@
+import {Button} from "@/components/ui/button"
+
 export default function AdminPage() {
-    return 'Admin page'
+    return (
+        <div>
+            Admin page
+            <br/>
+            <Button>Click</Button>
+        </div>)
 }
